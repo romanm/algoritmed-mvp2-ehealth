@@ -1,0 +1,127 @@
+{
+"cabinet":{
+	"ng_template":"/f/mvp1/medic/cabinet.html"
+	,"shortName":"Кабінет"
+	,"fa":"fa-users"
+	,"parent":"home"
+	,"menuBar":true
+}
+,"info":{
+	"ng_template":"/f/mvp1/medic/msp2/info/info.html"
+	,"shortName2":"Інф."
+	,"shortName":"Інформація"
+	,"fa":"fa-life-ring"
+	,"parent":"home"
+	,"menuBar":true
+}
+,"test-cc":{
+	"ng_template":"/f/mvp1/medic/msp2/info/info_test_program_ehealth.html"
+	,"shortName":"Інформація"
+	,"fa":"fa-life-ring"
+	,"parent":"info"
+}
+,"moz-declaration":{
+	"ng_template":"/f/mvp1/medic/msp2/moz-declaration/moz-declaration.html"
+	,"shortName":"Декларація"
+	,"fa":"fa-user"
+	,"parent":"home"
+	,"menuBar":false
+}
+,"personal-page":{
+	"ng_template":"/f/mvp1/medic/msp2/personal_page/personal-page.html"
+	,"shortName":"Персональна сторінка"
+	,"shortName2":"Зареєструватись"
+	,"fa":"fa-sign-in"
+	,"parent":"home"
+	,"menuBar":true
+}
+,"registry":{
+	"ng_template":"/f/mvp1/medic/msp2/registry.html"
+	,"shortName":"Персональна сторінка"
+	,"shortName2":"Зареєструватись"
+	,"fa":"fa-sign-in"
+	,"parent":"home"
+	,"menuBar":false
+}
+,"moz-declaration-edit":{
+	"ng_template":"/f/mvp1/medic/msp2/moz-declaration/moz-declaration-edit.html"
+	,"shortName":"Декларація"
+	,"fa":"fa-user"
+	,"parent":"home"
+}
+,"admin-msp":{
+	"ng_template":"/f/mvp1/medic/msp2/admin_msp/admin-msp.html"
+	,"shortName":"Адмін лікувального закладу"
+	,"fa":"fa-user"
+	,"parent":"home"
+}
+,"reception":{
+	"ng_template":"/f/mvp1/medic/msp2/reception/reception.html"
+	,"shortName":"Регістратура поліклініки"
+	,"fa":"fa-user"
+	,"parent":"home"
+}
+,"human-resources-department":{
+	"ng_template":"/f/mvp1/medic/msp2/humanRD/human-resources-department.html"
+	,"shortName":"Відділ кадрів"
+	,"fa":"fa-user"
+	,"parent":"home"
+}
+,"newDoctor":{
+	"ng_template":"/f/mvp1/medic/newDoctor.html"
+	,"shortName":"Зареєструватись"
+	,"fa":"fa-sign-in"
+	,"parent":"home1"
+}
+,"info-doc":{
+	"ng_template":"/f/mvp1/medic/info-doc.html"
+	,"shortName":"Інформація"
+	,"fa":"fa-info"
+	,"parent":"info"
+}
+,"protocol":{
+	"ng_template":"/f/mvp1/medic/protocol.html"
+	,"shortName":"Клінічний протокол"
+	,"fa":"fa-info"
+	,"parent":"info"
+}
+,"protocol2":{
+	"ng_template":"/f/mvp1/medic/protocol.html"
+	,"shortName":"Протокол"
+	,"parent":"cabinet"
+}
+,"testMvpCalendar":{
+	"ng_template":"/f/mvp1/medic/testMvpCalendar.html"
+	,"shortName":"Шаблон виду плану роботи як календар"
+	,"fa":"fa-info"
+	,"parent":"cabinet"
+}
+,"testMvpAddress":{
+	"ng_template":"/f/mvp1/medic/testMvpAddress.html"
+	,"shortName":"Центральний реєстр адреси"
+	,"fa":"fa-info"
+	,"parent":"info"
+}
+,"testMvpPatient":{
+	"ng_template":"/f/mvp1/medic/testMvpPatient.html"
+	,"shortName":"Центральний реєстр пацієнтів"
+	,"fa":"fa-info"
+	,"parent":"info"
+}
+,"testMvpMedic":{
+	"ng_template":"/f/mvp1/medic/testMvpMedic.html"
+	,"shortName":"Центральний реєстр медиків"
+	,"fa":"fa-info"
+	,"parent":"info"
+}
+,"patient":{
+	"ng_template":"/f/mvp1/medic/patient.html"
+	,"shortName":"Пацієнт"
+	,"fa":"fa-user"
+	,"parent":"cabinet"
+}
+,"menuCabinet":{
+	"queue":{"shortName":"Черга"}
+	,"patient":{"shortName":"Прийом"}
+}
+}

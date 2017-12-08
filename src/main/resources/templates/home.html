@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" ng-app="mvp1App" ng-controller="Mvp1Ctrl as mvp1Ctrl">
+<head th:replace="th_lib :: head">
+</head>
+<body>
+	<div ng-include="'/f/mvp1/medic/menuBar.html'"></div>
+	<div class="w3-container">
+		<div class="navbar">
+			<div class="navbar-inner">
+				<ul class="nav">
+				</ul>
+			</div>
+		</div>
+		<h1 th:text="${title}">Title</h1>
+		<div th:text="${message}">Fake content</div>
+		<div id="created" th:text="${#dates.format(date)}">July 11, 2012
+			2:17:16 PM CDT</div>
+		<form th:action="@{/logout}" method="post">
+			<input type="submit" value="Sign Out" />
+		</form>
+	</div>
+	<a class="brand" href="http://www.thymeleaf.org"> Thymeleaf - Plain
+	</a>
+					<a th:href="@{/v/h1}" href="home1.html"> Home 1</a>
+					<a th:href="@{/v/h2}" href="home2.html"> Home 2 </a>
+</body>
+</html>

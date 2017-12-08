@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" ng-app="mvp1App"
+	ng-controller="Mvp1Ctrl as mvp1Ctrl">
+<head th:replace="th_lib :: head">
+</head>
+<body>
+	<div ng-include="'/f/mvp1/medic/menuBar.html'"></div>
+	<div class="w3-container">
+		<div ng-include="config[pagePath[0]].ng_template"></div>
+	</div>
+</body>
+</html>
